@@ -1,0 +1,228 @@
+    1  ifonfig
+    2  ifconfig
+    3  ipconfig
+    4  sudo apt install net-tools
+    5  ipconfig
+    6  ifconfig
+    7  sudo apt update
+    8  sudo apt install openssh-server
+    9  sudo systemctl status sshcd -
+   10  sudo ufw allow ssh
+   11  ifconfig
+   12  clear
+   13  ifconfig
+   14  clear
+   15  cat --help
+   16  man cat
+   17  cd ~
+   18  vi .bashrc 
+   19  clear
+   20  pwd
+   21  echo "Ineuron"
+   22  sudo su
+   23  clear
+   24  cd /home/ineuron/Downloads/
+   25  cd ~
+   26  pwd
+   27  cd /home/ineuron/Downloads/
+   28  cd ..
+   29  pwd
+   30  touch abc.txt
+   31  touch abc1.txt
+   32  touch abc2.txt
+   33  ls
+   34  ls --help
+   35  ls -l
+   36  ls -ll
+   37  ls -a
+   38  ll
+   39  ls -lrt
+   40  ls -lrta
+   41  man ls
+   42  vi abc.txt 
+   43  cat abc.txt 
+   44  cat --help
+   45  cat -s abc.txt 
+   46  vi abc.txt 
+   47  cat -s abc.txt 
+   48  cat abc.txt 
+   49  cat -b abc.txt 
+   50  cat -n abc.txt 
+   51  less abc.txt 
+   52  more abc.txt
+   53  less help
+   54  less --help
+   55  mkdir paul
+   56  ls
+   57  mkdir -p das/mas/sas
+   58  ls
+   59  rmdir paul/
+   60  ls
+   61  rmdir -p das/mas/sas
+   62  ls
+   63  clear
+   64  cp abc.txt /home/ineuron/Downloads/
+   65  cd Downloads/
+   66  ls
+   67  mkdir docs
+   68  cp docs/ /home/ineuron/
+   69  cp -r docs/ /home/ineuron/
+   70  cp --help
+   71  clear
+   72  ls
+   73  mv abc.txt paul.txt
+   74  ls
+   75  mv paul.txt /home/ineuron/
+   76  ls
+   77  cd ..
+   78  ls
+   79  sudo apt-get update
+   80  sudo apt-get upgrade
+   81  clear
+   82  sudo apt install tree
+   83  tree Downloads/
+   84  cd ..
+   85  tree /home/
+   86  tree /
+   87  history
+   88  history > mycommands.txt
+   89  sudo history > mycommands.txt
+   90  sudo history >> mycommands.txt
+   91  history > mycommands.txt
+   92  cd /home/
+   93  cd /home/ineuron/
+   94  history > mycommands.txt
+   95  cat mycommands.txt 
+   96  sudo init 0
+   97  cd /
+   98  ls
+   99  touch hello.py
+  100  cd /home/ineuron/
+  101  touch hello.py
+  102  vi hello.py 
+  103  sudo apt-get install  vim
+  104  vi hello.py 
+  105  cat /proc/cpuinfo
+  106  python3
+  107  python
+  108  clear
+  109  cat /proc/cpuinfo 
+  110  free 
+  111  free -h
+  112  free -m
+  113  uname
+  114  uname -r
+  115  uname --help
+  116  uname -a
+  117  clear
+  118  lsusb
+  119  lshw
+  120  clear
+  121  vi abc.txt
+  122  grep gg abc.txt 
+  123  mkdir paul 
+  124  cp abc.txt paul
+  125  grep gg paul
+  126  grep -r gg paul
+  127  locate abc2.txt 
+  128  cd /home/ineuron/
+  129  locate abc2.txt 
+  130  pwd
+  131  cd paul/
+  132  locate abc2.txt 
+  133  touch abc2.txt 
+  134  mkdir pau
+  135  cd pau
+  136  locate abc2.txt 
+  137  cd ~
+  138  locate bash
+  139  touch foobar.txt
+  140  locate foobar.txt 
+  141  cd paul/pau/
+  142  locate foobar.txt 
+  143  touch foobar1.txt
+  144  locate foobar1.txt 
+  145  cd ..
+  146  locate foobar1.txt 
+  147  cd ~
+  148  locate foobar1.txt 
+  149  cd paul/pau/
+  150  vi foobar1.txt 
+  151  cd ~
+  152  locate foobar1.txt 
+  153  man locate
+  154  sudo updatedb
+  155  locate foobar1.txt 
+  156  locate foobar.txt 
+  157  uname -a
+  158  find /home/ineuron/paul/pau/ foobar1.txt
+  159  cd paul/pau/
+  160  ls
+  161  cd ..
+  162  find foobar.txt
+  163  cd pau
+  164  find foobar1.txt
+  165  cd ~
+  166  touch sas.txt
+  167  find ./GFG -name foobar.txt
+  168  find ./GFG -name foobar1.txt
+  169  cd paul/pau
+  170  find ./GFG -name foobar1.txt
+  171  ls
+  172  find -name foobar1.txt
+  173  man find
+  174  cd ~
+  175  find /home/ineuron/paul/pau foo
+  176  find /home/ -size +1MB
+  177  find /home/ -size +1M
+  178  clear
+  179  id
+  180  whoami
+  181  hostname
+  182  last
+  183  last reboot
+  184  sudo adduser vikash
+  185  su vikash
+  186  clear
+  187  groupadd dogs
+  188  sudo groupadd dogs
+  189  usermod -aG dogs vikash
+  190  sudo usermod -aG dogs vikash
+  191  su vikash
+  192  sudo su
+  193  userdel vikash
+  194  sudo userdel vikash
+  195  kill 3950
+  196  sudo kill 3950
+  197  sudo userdel vikash
+  198  useradd girish
+  199  sudo useradd girish
+  200  cat /etc/passwd
+  201  sudo userdel girish
+  202  cat /etc/passwd
+  203  cat /etc/shadow
+  204  sudo cat /etc/shadow
+  205  clear
+  206  mkdir flash
+  207  cd flash/
+  208  touch saa.txt
+  209  ll
+  210  vi saa.txt 
+  211  chmod saa.txt
+  212  ll
+  213  chmod 777 saa.txt 
+  214  ll
+  215  chmod 740 saa.txt 
+  216  ll
+  217  ps
+  218  top
+  219  kill 1564
+  220  sudo cat /etc/sudoers
+  221  sudo grep vikash /etc/sudoers
+  222  sudo vi /etc/sudoers
+  223  su vikash
+  224  ps
+  225  top
+  226  clear
+  227  ps -eaf
+  228  history > monday17May.txt
